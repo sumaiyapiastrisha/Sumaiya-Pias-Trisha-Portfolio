@@ -15,7 +15,7 @@ const Projects = () => {
             </div> : <div className="my-5">
 
                 <div>
-                    <h1 className="my-5 pt-5 ">OUR Projects</h1>
+                    <h1 className="my-5 pt-5 ">MY Projects</h1>
 
                 </div>
 

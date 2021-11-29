@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import './ContactMe.css'
 import { Container } from 'react-bootstrap';
 
 
@@ -12,15 +13,17 @@ const ContactMe = () => {
     }
 
     return (
-        <form onSubmit={sendEmail}>
-            <input type="text" placeholder="Name"></input>
+
+        <form className="mb-5 bg-gray  background" onSubmit={sendEmail}>
+            <h1 className="py-5">Contact Me</h1>
+            <input className="mt-3  bg-white border-0 shadow w-50 p-3" type="text" placeholder="Name"></input>
             <br />
-            <input type="email" placeholder="Your email"></input>
+            <input className="mt-3 bg-white border-0 shadow w-50 p-3" type="email" placeholder="Your email"></input>
             <br />
-            <textarea name="message" placeholder="write your mail"></textarea>
+            <textarea className="mt-3 bg-white border-0 shadow w-50 p-3" name="message" placeholder="write your mail"></textarea>
             <br />
-            <button type="submit">send</button>
-        </form>
+            <button className="mt-3 bg-white border-0 shadow w-50 button border-0  rounded  fw-bold p-3" type=" submit">Send E-mail</button>
+        </form >
     )
 };
 export default ContactMe;

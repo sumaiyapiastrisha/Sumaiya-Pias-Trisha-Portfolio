@@ -11,17 +11,16 @@ const Footer = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 item text">
-                            <h3 className="text-danger">Sumaiya Pias Trisha</h3>
-                            <p>Prefer to Ride to Your Destination on Two Wheels? Rent One of Our Safe and Durable Bikes.</p>
+                            <h3 className="text-white">Sumaiya Pias Trisha</h3>
+
                         </div>
                         <div class="col-sm-6 col-md-3 item">
-                            <h3 className="text-white text-start ps-3">Products</h3>
+                            <h3 className="text-white text-start ps-3">Projects</h3>
                             <ul className="text-start">
-                                <h6>Yamaha</h6>
-                                <h6>Suzuki</h6>
-                                <h6>Honda</h6>
-                                <h6>BMW</h6>
-                                <h6>Ducati</h6>
+                                <h6>Drive Time</h6>
+                                <h6>Holy Cresent</h6>
+                                <h6>Food To Go</h6>
+
                             </ul>
                         </div>
                         <div class="col-sm-6 col-md-3 item">
@@ -35,7 +34,7 @@ const Footer = () => {
 
 
                     </div>
-                    <p class="   text-white ">Sumaiya Pias Trisha © 2021</p>
+                    <p class="   text-white my-4">Sumaiya Pias Trisha © 2021</p>
                 </div>
             </footer>
         </div>
