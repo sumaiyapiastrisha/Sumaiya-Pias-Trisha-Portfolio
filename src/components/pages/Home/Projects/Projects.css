@@ -1,0 +1,16 @@
+.service img{
+    height:250px ;
+   
+}
+.gallery img{
+    height: 250px;
+    width:320px;
+}
+
+.register-services{
+    background-image:url('https://images.pexels.com/photos/8753672/pexels-photo-8753672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    width: 100%;
+}
