@@ -2,19 +2,38 @@
     {
         "id": 1,
         "title": "Drive Time",
-        "description": "this project is made by React, JavaScript, React-Bootstrap, mongodb,node.js, firebase, express.An  Admin can delete, update, add any product to the database and can update the status of ordered products.Users can order bikes, delete ,ordered bikes and see their ordered bikes if they are logged in.",
-        "image": "./drive-time-1.png"
+        "description1": " Technology: This project is made by React, JavaScript, React-Bootstrap, mongodb,node.js, firebase, express.",
+        "description2": " An  Admin can delete, update, add any product to the database and can update the status of ordered products.",
+        "description3": " Users can order bikes, delete ,ordered bikes and see their ordered bikes if they are logged in.",
+        "image": "/drive-time-1.png",
+        "image2": "/drive-time-2.png",
+        "image3": "/drive-time-3.png",
+        "livesite": " https://food-to-go-68742.web.app/",
+        "serverSiteGithub": "https://github.com/sumaiyapiastrisha/Drive-time-server-site",
+        "Clientsitegithub": "https://github.com/sumaiyapiastrisha/Drive-time-client-site"
     },
     {
         "id": 2,
         "title": "Holy Crescent",
-        "description": "Technologies: React , React-Bootstrap, JavaScript, CSS, HTML5.Users can purchase any programming course from available courses.Users can hire teachers according to their choice and can also see clients’ reviews",
-        "image": "./be-programmer-1.png"
+        "description1": "Technologies: React , React-Bootstrap, JavaScript, CSS, HTML5.Users can purchase any programming course from available courses.",
+        "description2": "Users can hire teachers according to their choice and can also see clients’ reviews",
+        "description3": "This site has Login functionality also .",
+        "image": "/holy-1.png",
+        "image2": "/holy2.png",
+        "image3": "/holy-3.png",
+        "livesite": "https://holy-creasent-hospital.web.app/",
+        "Clientsitegithub": "https://github.com/sumaiyapiastrisha/Holy-crescent-hospital"
     },
     {
         "id": 3,
-        "title": "Food To Go",
-        "description": "Technologies: React , React-Bootstrap, JavaScript, CSS, HTML5.Users can purchase any programming course from available courses.Users can hire teachers according to their choice and can also see clients’ reviews",
-        "image": "./food-to-go-1.png"
+        "title": "Be  Programmer",
+        "description1": "Technologies: React , React-Bootstrap, JavaScript, CSS, HTML5.Users can purchase any programming course from available courses.",
+        "description2": "Users can hire teachers according to their choice and can also see clients’ reviews",
+        "description3": "This site has Login functionality also .",
+        "image": "/be-programmer-1.png",
+        "image2": "/be-programmer-2.png",
+        "image3": "/be-programmer3.png",
+        "livesite": "https://infallible-mcnulty-abcbc7.netlify.app/",
+        "Clientsitegithub": "https://github.com/sumaiyapiastrisha/Be-programmer"
     }
 ]

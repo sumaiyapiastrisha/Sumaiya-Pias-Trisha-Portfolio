@@ -10,7 +10,27 @@ const Home = () => {
         <div>
 
             <div><Banner></Banner></div>
-            <div className="container">
+
+            <div className="container" id="aboutMe">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4  mx-5  topProjects">
+
+
+                    <div class="col">
+                        <div classNam="d-flex">
+                            <div class="col-4">Web Development</div>
+                            <div class="col-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quasi quae sunt, eius asperiores numquam quidem tenetur id harum quia saepe accusantium dignissimos perspiciatis laudantium? Culpa laboriosam deleniti magnam nemo?</div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="col">col-sm</div>
+                        <div class="col">col-sm</div>
+                    </div>
+
+
+
+
+                </div>
 
                 <div class="container  my-5 py-5">
                     <div class="row">
@@ -21,7 +41,6 @@ const Home = () => {
                     </div>
 
                 </div>
-
 
 
 
