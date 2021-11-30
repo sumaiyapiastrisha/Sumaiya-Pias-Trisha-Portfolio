@@ -14,15 +14,18 @@ const ShowProjects = (props) => {
                 <img src={image} class="card-img-top" alt={image} />
                 <div className="d-flex ">
                     <div className="card-body">
-                        <h3 class="card-title ">{title}</h3>
+                        <div>
+                            <h3 class="card-title ">{title}</h3>
+                        </div>
+
 
                         {/* <p class="card-text">{description}</p> */}
-
+                        <div><Link to={`/Projects/${id}`} className="text-end mx-4" >
+                            <button className="btn border border-2  p-2 px-4 my-3">Show details</button>
+                        </Link></div>
                     </div>
 
-                    <Link to={`/Projects/${id}`} className="text-end mx-4" >
-                        <button className="btn border border-2  p-2 px-4 my-3">Show details</button>
-                    </Link>
+
                 </div>
 
             </div>
