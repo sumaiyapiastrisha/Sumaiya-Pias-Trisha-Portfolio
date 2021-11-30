@@ -11,8 +11,8 @@ const Banner = () => {
 
                 <h4 className="text-center pt-5 ">Honest,qiuck Lerner,Hard worker</h4>
                 <div className="text-center">
-                    <button className="btn border border-dark mx-2 p-2 px-5 mt-5 justify-content-center ">Projects</button>
-                    <button className="btn border border-dark p-2 px-5 mt-5 justify-content-center ">Resume</button>
+                    <button className="btn border btn-dark text-white border-dark mx-2 p-2 px-5 mt-5 justify-content-center ">Projects</button>
+                    <button className="btn border btn-dark text-white  border-dark p-2 px-5 mt-5 justify-content-center "><a className="link text-white" href="https://drive.google.com/file/d/1kCvX3NmbfakKJiuUVv1uJNDRChJq60mi/view?usp=sharing" target="_blank" >Resume</a></button>
                 </div>
 
             </div>
