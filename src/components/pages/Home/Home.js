@@ -8,9 +8,9 @@ const Home = () => {
 
     return (
         <div>
-
+            {/* banner part */}
             <div><Banner></Banner></div>
-
+            {/* About me part */}
             <div class="container  my-5 py-5" id="aboutMe">
                 <div class="row my-5 py-5">
                     <div class="col-sm-4 d-flex justify-content-center align-items-center text-start"><h1>ABOUT ME </h1></div>
@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
 
             </div>
-
+            {/* Skills part */}
             <div className="container" >
 
                 <h1 className="mb-5 ">Skills</h1>
@@ -48,7 +48,7 @@ const Home = () => {
 
 
 
-
+                {/* Projects */}
                 <div>
                     <Projects></Projects>
                 </div>

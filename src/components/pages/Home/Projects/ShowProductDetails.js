@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// Show project details according to id 
 const ShowProductDetails = (props) => {
     const { id, title, image, description1, image2, image3, serverSiteGithub, livesite, Clientsitegithub, description2, description3
     } = props.project;

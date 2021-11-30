@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com'
 import './ContactMe.css'
 import { Container } from 'react-bootstrap';
 
-
+// send email function
 const ContactMe = () => {
     function sendEmail(e) {
         e.preventDefault();
@@ -13,7 +13,7 @@ const ContactMe = () => {
     }
 
     return (
-
+        // contact form 
         <form className="mb-5 bg-gray  background" onSubmit={sendEmail}>
             <h1 className="py-5">Contact Me</h1>
             <input className="mt-3  bg-white border-0 shadow w-50 p-3" type="text" placeholder="Name"></input>

@@ -7,7 +7,7 @@ const ProjectDetails = () => {
     const { id } = useParams();
 
 
-    //fetch services collection and show data according to id 
+    //Show project detail  according to id 
     const [projects, setProjects] = useState([]);
     useEffect(() => {
         fetch('/projects.json')

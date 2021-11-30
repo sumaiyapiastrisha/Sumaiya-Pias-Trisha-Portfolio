@@ -2,6 +2,9 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Projects.css'
+
+
+//Show projects
 const ShowProjects = (props) => {
     const { id, title, image, description } = props.project;
     console.log(description)

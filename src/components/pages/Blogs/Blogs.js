@@ -1,5 +1,5 @@
 import React from 'react';
-
+// blogs
 const Blogs = () => {
     return (
         <div className="my-5 py-5">
